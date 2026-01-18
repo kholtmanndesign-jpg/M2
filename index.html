@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Martin Luther King Jr.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #101820, #00539C);
+      color: #fff;
+      padding: 20px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.3rem;
+      margin-bottom: 5px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0 10px;
+    }
+
+    nav a {
+      display: block;
+      padding: 10px 5px;
+      text-decoration: none;
+      color: #00539C;
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      color: #101820;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 15px 30px;
+    }
+
+    section {
+      background-color: #fff;
+      margin-bottom: 20px;
+      padding: 20px 18px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    }
+
+    section h2 {
+      margin-bottom: 10px;
+      color: #101820;
+      border-left: 4px solid #00539C;
+      padding-left: 8px;
+      font-size: 1.4rem;
+    }
+
+    .hero-quote {
+      font-style: italic;
+      margin: 10px 0 0;
+      font-size: 1rem;
+    }
+
+    .hero-quote span {
+      display: block;
+      margin-top: 4px;
+      font-size: 0.9rem;
+      font-style: normal;
+      color: #cfd8e6;
+    }
+
+    .two-column {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    .two-column > div {
+      flex: 1 1 250px;
+    }
+
+    ul.timeline {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 8px;
+    }
+
+    ul.timeline li {
+      margin-bottom: 8px;
+      padding-left: 10px;
+      border-left: 2px solid #00539C;
+    }
+
+    ul.timeline span.year {
+      font-weight: bold;
+      color: #00539C;
+      margin-right: 6px;
+    }
+
+    blockquote {
+      padding-left: 12px;
+      border-left: 3px solid #00539C;
+      margin: 10px 0;
+      font-style: italic;
+      color: #333;
+    }
+
+    .highlight-box {
+      background-color: #f0f5ff;
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .tag {
+      background-color: #00539C;
+      color: #fff;
+      padding: 4px 10px;
+      border-radius: 16px;
+      font-size: 0.8rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.82rem;
+      color: #555;
+      padding: 15px 10px 25px;
+    }
+
+    footer a {
+      color: #00539C;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      nav li {
+        margin: 0 6px;
+      }
+      section {
+        padding: 16px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Martin Luther King Jr.</h1>
+    <p>American civil rights leader, pastor, and advocate for nonviolent change</p>
+    <p class="hero-quote">
+      “Injustice anywhere is a threat to justice everywhere.”
+      <span>— from “Letter from Birmingham Jail”</span>
+    </p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">Biography</a></li>
+      <li><a href="#timeline">Key events</a></li>
+      <li><a href="#dream">“I Have a Dream”</a></li>
+      <li><a href="#legacy">Legacy</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>Biography</h2>
+      <div class="two-column">
+        <div>
+          <p>
+            Martin Luther King Jr. (1929–1968) was a Baptist minister and one of the most
+            influential leaders of the American civil rights movement. He advocated for
+            equality through nonviolent protest and civil disobedience, challenging systems
+            of segregation and discrimination in the United States.
+          </p>
+          <p>
+            Born in Atlanta, Georgia, King studied theology and became a pastor before
+            emerging as a national figure during the Montgomery bus boycott in the mid‑1950s.
+            His leadership connected religious conviction with a call for social justice and
+            human rights.
+          </p>
+        </div>
+        <div>
+          <div class="highlight-box">
+            <strong>Quick facts</strong>
+            <ul style="margin-top: 6px; padding-left: 18px;">
+              <li><strong>Born:</strong> January 15, 1929, Atlanta, Georgia</li>
+              <li><strong>Occupation:</strong> Baptist minister, civil rights leader</li>
+              <li><strong>Major award:</strong> Nobel Peace Prize, 1964</li>
+              <li><strong>Died:</strong> April 4, 1968, Memphis, Tennessee</li>
+            </ul>
+          </div>
+          <div class="tag-list">
+            <span class="tag">Civil Rights</span>
+            <span class="tag">Nonviolence</span>
+            <span class="tag">Leadership</span>
+            <span class="tag">Justice</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <h2>Key events</h2>
+      <ul class="timeline">
+        <li>
+          <span class="year">1955:</span>
+          Helps lead the Montgomery bus boycott after Rosa Parks is arrested, challenging
+          segregated public transportation.
+        </li>
+        <li>
+          <span class="year">1957:</span>
+          Becomes the first president of the Southern Christian Leadership Conference (SCLC),
+          organizing nonviolent campaigns across the South.
+        </li>
+        <li>
+          <span class="year">1963:</span>
+          Helps lead the March on Washington for Jobs and Freedom, where he delivers the
+          famous “I Have a Dream” speech.
+        </li>
+        <li>
+          <span class="year">1964:</span>
+          Receives the Nobel Peace Prize for his leadership in the struggle for civil rights
+          through nonviolent means.
+        </li>
+        <li>
+          <span class="year">1965:</span>
+          Plays a major role in the Selma to Montgomery marches, which help lead to the
+          Voting Rights Act of 1965.
+        </li>
+      </ul>
+    </section>
+
+    <section id="dream">
+      <h2>“I Have a Dream”</h2>
+      <p>
+        On August 28, 1963, during the March on Washington, King delivered his
+        “I Have a Dream” speech at the Lincoln Memorial. In this address, he spoke about
+        his vision of a United States where people would be judged by their character
+        rather than the color of their skin.
+      </p>
+      <blockquote>
+        “I have a dream that one day this nation will rise up and live out the true meaning
+        of its creed: ‘We hold these truths to be self‑evident, that all men are created equal.’”
+      </blockquote>
+      <p>
+        The speech became one of the most famous in American history and continues to inspire
+        movements for equality, justice, and human rights around the world.
+      </p>
+    </section>
+
+    <section id="legacy">
+      <h2>Legacy</h2>
+      <p>
+        Martin Luther King Jr.’s work helped lead to major civil rights laws, including
+        legislation that outlawed segregation and protected voting rights. His approach to
+        nonviolence influenced activists across the globe, from anti‑apartheid movements to
+        modern campaigns for social justice.
+      </p>
+      <p>
+        In the United States, a federal holiday honors his life and work each January.
+        Schools, communities, and organizations often mark the day with service projects and
+        discussions focused on equality, justice, and community building.
+      </p>
+      <p class="highlight-box">
+        This website is a student project and not an official source. For more detailed,
+        researched information, always consult trusted historical references and archives.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Demo site about Martin Luther King Jr. &middot; Created for educational purposes.
+  </footer>
+
+</body>
+</html>
